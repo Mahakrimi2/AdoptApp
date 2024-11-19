@@ -1,0 +1,71 @@
+import '../domain/Dog.dart';
+import '../domain/Owner.dart';
+
+Owner owner = Owner(
+  name: "Spikey Sanju",
+  bio: "Developer & Pet Lover",
+  image: "images/owner.png",
+);
+
+List<Dog> dogList = [
+  Dog(
+    id: 0,
+    name: "Hachiko",
+    age: 3.5,
+    gender: "Male",
+    color: "Brown",
+    weight: 12.9,
+    location: "389m away",
+    image: "images/orange_dog.png",
+    about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    owner: owner,
+  ),
+  Dog(
+    id: 1,
+    name: "Skooby Doo",
+    age: 3.5,
+    gender: "Male",
+    color: "Gold",
+    weight: 12.4,
+    location: "412m away",
+    image: "images/blue_dog.png",
+    about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    owner: owner,
+  ),
+  Dog(
+    id: 2,
+    name: "Miss Agnes",
+    age: 3.5,
+    gender: "Female",
+    color: "White",
+    weight: 9.6,
+    location: "879m away",
+    image: "images/red_dog.png",
+    about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    owner: owner,
+  ),
+  Dog(
+    id: 3,
+    name: "Cyrus",
+    age: 3.5,
+    gender: "Male",
+    color: "Black",
+    weight: 8.2,
+    location: "672m away",
+    image: "images/yellow_dog.png",
+    about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    owner: owner,
+  ),
+  Dog(
+    id: 4,
+    name: "Shelby",
+    age: 3.5,
+    gender: "Female",
+    color: "Choco",
+    weight: 14.9,
+    location: "982m away",
+    image: "images/white_dog.png",
+    about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    owner: owner,
+  ),
+];
