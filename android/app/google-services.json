@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334141358278",
+    "project_id": "authdogsapp",
+    "storage_bucket": "authdogsapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334141358278:android:b50b726884b29c94fa17c7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_rendu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyuI3Kyfwc99eJzJIU5FyiFganehoyBuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

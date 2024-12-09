@@ -1,0 +1,4 @@
+<resources>
+    <!-- Définissez la couleur "text" ici -->
+    <color name="text">#000000</color> <!-- Couleur noire -->
+</resources>
